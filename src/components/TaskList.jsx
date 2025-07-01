@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import EditTask from "./Edittask";
+import EditTask from "../components/EditTask";
 import { deleteTask, fetchTodo } from "../features/taskSlice";
 
 const TaskList = () => {
